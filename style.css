@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  align-self: center;
+  background-image: url('shawermaabd.png');
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.section-center {
+  padding-left: 2px;
+}
+
+.menu-info {
+  padding-left: 25px;
+}
+
+footer>h2  {
+  font-size: 1.5rem;
+  text-align: center;
+  color: purple;
+
+}
+
+footer a {
+  font-size: 1.5rem;
+  text-align: center;
+  color: purple;
+  text-decoration: none;
+}
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  scale: 0.85;
+}
+.btn-item {
+  margin-left: 15px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 0 solid black;
+  border-radius: 10px;
+}
+.menu-items {
+  display: flex;
+  margin: 20px 0;
+  padding-right: 50px;
+}
+.menu-info {
+  margin-left: 10px;
+  width: 100%;
+}
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+
+h4 {
+  color: #e00a00;
+}
+
+.menu-text {
+  padding-top: 20px;
+}
+
+footer {
+  margin-top: 150px;
+  position: relative;
+  bottom: 30px;
+  width: 100%;
+}
